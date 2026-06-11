@@ -1,0 +1,28 @@
+export const QR_URL = "https://qrfy.io/k2lBI3vJZe";
+
+export const TABLE_NAME_FIELD_MAP = {
+  countries: 'name',
+  manufacturers: 'name',
+  battery_capacities: 'value_kwh',
+  battery_chemistries: 'name',
+  nominal_voltages: 'value_v',
+  cell_origins: 'country_name',
+  extinguisher_classes: 'class_name',
+  factory_codes: 'factory_name',
+  manufacturing_years: 'year',
+  manufacturing_months: 'name',
+  manufacturing_dates: 'day_num',
+  tac_numbers: 'tac_number',
+  cell_types: 'type_name',
+  pack_construction_types: 'construction_type',
+  module_construction_types: 'construction_type',
+  cooling_systems: 'cooling_type',
+  internal_resistances: 'value_mohm',
+  battery_weights: 'value_kg',
+  battery_warranties: 'years',
+  power_80_soc: 'value_kw',
+  power_20_soc: 'value_kw',
+  carbon_footprints: 'value_kgco2ekwh',
+  number_of_cells: 'count',
+  dimensions: 'dimensions',
+};
