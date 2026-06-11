@@ -15,7 +15,7 @@ wheels/
 .env.production
 
 # Local development files
-docker-compose.yml
+docker-compose.dev.yml
 
 # Node.js & Frontend
 node_modules/
