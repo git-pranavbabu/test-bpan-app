@@ -42,3 +42,4 @@ services:
 
 volumes:
   postgres_data:
+    name: bpan_postgres_data
